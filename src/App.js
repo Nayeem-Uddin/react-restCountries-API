@@ -54,8 +54,6 @@ function Counter(){
     const newCount = count-1;
     if(newCount>=0){
       setCount(newCount);
-    }else{
-      alert('number cannot be negative')
     }
   }
   return (
