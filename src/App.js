@@ -5,19 +5,28 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+         8 fundamental things of react
+
+      <Products></Products>
+      <Products></Products>
+      <Products></Products>
+
       </header>
+    </div>
+  );
+}
+
+const productStyle = {
+  boxShadow: '5px 5px 10px cyan',
+  margin: '20px',
+  padding: '20px'
+}
+
+function Products(){
+  return (
+    <div style={productStyle}>
+        <h3>Name: Laptop</h3>
+        <h1>price: $500</h1>
     </div>
   );
 }
